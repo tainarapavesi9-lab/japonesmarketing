@@ -1,721 +1,336 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-    <title>VapoFil — Feel Like Yourself Again | Natural Male Support Formula</title>
-    <meta name="description" content="VapoFil helps men over 35 reclaim energy, drive, and confidence where it matters most. Natural ingredients, one-time purchase, 60-day guarantee. Ships from the USA.">
-    <meta name="robots" content="index, follow, max-image-preview:large">
-    <link rel="canonical" href="https://vapofil.com/">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Merriweather:wght@700;800;900&display=swap" rel="stylesheet">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Japones Marketing ADS | Gestão de Tráfego Pago & Performance</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts: Inter & Montserrat -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Montserrat:wght@700;800&display=swap" rel="stylesheet">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
     <style>
-    :root {
-        --brand:        #0d9488;
-        --brand-dark:   #0f766e;
-        --brand-light:  #ccfbf1;
-        --cta:          #16a34a;
-        --cta-dark:     #15803d;
-        --cta-secondary:#facc15;
-        --text-dark:    #0f172a;
-        --text-body:    #374151;
-        --text-light:   #6b7280;
-        --bg-white:     #ffffff;
-        --bg-gray:      #f9fafb;
-        --bg-dark:      linear-gradient(135deg,#0f172a 0%,#1e293b 100%);
-        --radius-card:  14px;
-        --shadow-card:  0 2px 12px rgba(0,0,0,.06);
-    }
+        body { font-family: 'Inter', sans-serif; scroll-behavior: smooth; }
+        h1, h2, h3 { font-family: 'Montserrat', sans-serif; }
+        .page-section { display: none; }
+        .page-section.active { display: block; }
+        .bg-brand-blue { background-color: #0052FF; }
+        .text-brand-blue { color: #0052FF; }
+        .bg-dark-surface { background-color: #0A0A0B; }
+        .border-white-10 { border-color: rgba(255, 255, 255, 0.1); }
+        
+        .glass-card {
+            background: rgba(255, 255, 255, 0.03);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+        }
 
-    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
-    body{font-family:'Inter',-apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:var(--text-body);line-height:1.7;font-size:16px;-webkit-font-smoothing:antialiased}
-    img{max-width:100%;height:auto;display:block}
-    a{text-decoration:none;color:inherit}
-    ul,ol{list-style:none}
-    button{cursor:pointer;font-family:inherit;background:none;border:none}
+        .hero-gradient {
+            background: radial-gradient(circle at 50% 50%, rgba(0, 82, 255, 0.15) 0%, rgba(10, 10, 11, 1) 70%);
+        }
 
-    .container     {max-width:768px;margin:0 auto;padding:0 16px}
-    .container-wide{max-width:1100px;margin:0 auto;padding:0 16px}
-    .section       {padding:52px 0}
-    .bg-white {background:var(--bg-white)}
-    .bg-gray  {background:var(--bg-gray)}
-    .text-center{text-align:center}
-    .text-justify{text-align:justify}
-
-    .h1{font-family:'Merriweather',Georgia,serif;font-size:1.75rem;font-weight:900;color:var(--text-dark);line-height:1.22;letter-spacing:-.02em}
-    .section-badge{
-        display:inline-block;
-        background:linear-gradient(135deg,#1e3a5f 0%,#2563eb 100%);
-        color:#fff;font-family:'Merriweather',Georgia,serif;font-weight:700;
-        font-size:1.25rem;padding:12px 28px;border-radius:8px;margin-bottom:28px}
-    .section-badge-full{
-        display:block;width:100%;text-align:center;
-        background:linear-gradient(135deg,#1e3a5f 0%,#2563eb 100%);
-        color:#fff;font-family:'Merriweather',Georgia,serif;font-weight:700;
-        font-size:1.25rem;padding:12px 28px;border-radius:8px;margin-bottom:28px}
-    .body-text{font-size:1rem;line-height:1.75;color:var(--text-body)}
-    .body-text strong{color:var(--text-dark);font-weight:700}
-    .body-text p{margin-bottom:20px}
-    .body-text p:last-child{margin-bottom:0}
-    .small-text{font-size:.8125rem;color:var(--text-light);line-height:1.5}
-    .eyebrow{font-size:.8125rem;font-weight:700;color:var(--brand);text-transform:uppercase;letter-spacing:.08em;margin-bottom:12px}
-
-    .offer-bar{background:linear-gradient(135deg,#0f172a 0%,#1e3a5f 50%,#0d9488 100%);color:#fff;padding:11px 16px}
-    .offer-bar-inner{max-width:768px;margin:0 auto;display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:8px 28px}
-    .offer-bar-item{display:flex;align-items:center;gap:8px;font-weight:700;font-size:.875rem;letter-spacing:.01em}
-    .offer-bar-item svg{width:17px;height:17px;flex-shrink:0}
-
-    .hero{padding:52px 16px;background:var(--bg-white)}
-    .hero-inner{max-width:1100px;margin:0 auto;display:flex;flex-direction:column;align-items:center;gap:36px}
-    .hero-img-wrap{flex-shrink:0}
-    .hero-img{width:100%;max-width:320px;border-radius:16px;margin:0 auto;filter:drop-shadow(0 8px 24px rgba(0,0,0,.12))}
-    .hero-text{flex:1}
-    .hero-text p{margin-bottom:20px}
-
-    .price-card{margin-top:28px;padding:22px 20px;background:#f0fdf4;border-radius:12px;border:1px solid #bbf7d0}
-    .price-label{font-family:'Merriweather',serif;font-size:.9375rem;font-weight:700;color:#15803d;margin-bottom:10px}
-    .price-row{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;margin-bottom:16px}
-    .price-original{font-size:1.25rem;color:var(--text-light);text-decoration:line-through;font-weight:600}
-    .price-current{font-size:2.5rem;font-weight:900;color:#15803d;line-height:1;font-family:'Merriweather',serif}
-    .price-badge{background:#dc2626;color:#fff;font-size:.75rem;font-weight:700;padding:4px 10px;border-radius:99px;letter-spacing:.04em;align-self:center}
-    .price-note{font-size:.8rem;color:#4b5563;display:flex;align-items:flex-start;gap:6px;line-height:1.5;margin-top:10px}
-    .price-note svg{width:15px;height:15px;color:var(--cta);flex-shrink:0;margin-top:2px}
-
-    .cta-primary{display:inline-flex;align-items:center;justify-content:center;gap:10px;background:linear-gradient(135deg,var(--cta-dark),var(--cta));color:#fff;font-weight:800;font-size:1.0625rem;padding:18px 36px;border-radius:10px;transition:transform .15s,box-shadow .15s;box-shadow:0 6px 20px rgba(22,163,74,.35);letter-spacing:.01em;width:100%;max-width:420px}
-    .cta-primary:hover{transform:translateY(-3px);box-shadow:0 10px 28px rgba(22,163,74,.45)}
-    .cta-primary svg{width:20px;height:20px;flex-shrink:0}
-    .cta-secondary{display:inline-flex;align-items:center;justify-content:center;gap:8px;background:var(--cta-secondary);color:#000;font-weight:700;font-size:.9375rem;padding:14px 28px;border-radius:10px;transition:background .2s;box-shadow:0 4px 12px rgba(250,204,21,.3)}
-    .cta-secondary:hover{background:#eab308}
-
-    .sci-bar{background:#f1f5f9;padding:16px;border-top:1px solid #e2e8f0;border-bottom:1px solid #e2e8f0;text-align:center}
-    .sci-bar-label{font-size:.7rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:#64748b;margin-bottom:10px}
-
-    .rating-wrap{display:flex;flex-direction:column;align-items:center;gap:6px;margin-bottom:32px}
-    .rating-score{font-size:2.25rem;font-weight:900;color:var(--text-dark)}
-    .rating-stars{display:inline-flex;gap:3px}
-    .rating-stars svg{width:26px;height:26px;color:#f59e0b;fill:currentColor}
-    .rating-count{font-size:.9375rem;color:#4b5563}
-    .reviews-grid{display:grid;grid-template-columns:1fr;gap:20px}
-    .review-card{background:#fff;border:1px solid #e5e7eb;border-radius:var(--radius-card);padding:24px;box-shadow:var(--shadow-card);text-align:center}
-    .review-photo{width:80px;height:80px;border-radius:50%;object-fit:cover;margin:0 auto 12px;border:3px solid var(--cta)}
-    .review-rating-row{display:flex;align-items:center;justify-content:center;gap:8px;margin-bottom:5px}
-    .review-badge{background:#f59e0b;color:#fff;font-weight:700;font-size:.8125rem;padding:2px 10px;border-radius:4px}
-    .review-stars{color:#f59e0b;font-size:1rem;letter-spacing:1px}
-    .review-verified{color:var(--cta);font-weight:600;font-size:.8125rem;margin-bottom:12px;display:flex;align-items:center;justify-content:center;gap:4px}
-    .review-verified svg{width:14px;height:14px}
-    .review-text{font-style:italic;color:var(--text-body);line-height:1.65;font-size:.9375rem;margin-bottom:12px}
-    .review-author{font-weight:700;color:var(--text-dark);font-size:.9375rem}
-    .review-loc{font-style:italic;color:var(--text-light);font-size:.8125rem}
-
-    .trust-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;margin-top:28px}
-    .trust-card{background:#fff;padding:22px 14px;border-radius:var(--radius-card);box-shadow:var(--shadow-card);text-align:center;border:1px solid #f1f5f9}
-    .trust-card img{height:76px;width:auto;margin:0 auto 14px;object-fit:contain}
-    .trust-card-title{font-weight:700;font-size:.9375rem;color:var(--text-dark);margin-bottom:4px}
-    .trust-card-desc{font-size:.8125rem;color:var(--text-light);line-height:1.5}
-
-    .what-img{margin:0 auto 32px;border-radius:var(--radius-card);box-shadow:0 6px 24px rgba(0,0,0,.1);max-width:480px}
-
-    .works-wrap{display:flex;flex-direction:column;gap:32px;margin-top:28px}
-    .works-img{border-radius:var(--radius-card);box-shadow:0 6px 24px rgba(0,0,0,.1)}
-    .steps{}
-    .step{display:flex;gap:18px;margin-bottom:28px;align-items:flex-start}
-    .step:last-child{margin-bottom:0}
-    .step-num{background:linear-gradient(135deg,#1e3a5f,#2563eb);color:#fff;width:38px;height:38px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:.9375rem;flex-shrink:0;margin-top:2px;box-shadow:0 4px 10px rgba(37,99,235,.3)}
-    .step-title{font-weight:700;color:var(--text-dark);font-size:1.0625rem;margin-bottom:6px}
-    .step p{color:var(--text-body);line-height:1.7;font-size:.9375rem}
-
-    .ingredients-img{margin:28px auto;border-radius:var(--radius-card);box-shadow:0 4px 16px rgba(0,0,0,.08)}
-    .ingredient-list{margin-top:28px}
-    .ingredient-item{display:flex;align-items:flex-start;gap:16px;margin-bottom:20px;padding-bottom:20px;border-bottom:1px solid #f1f5f9}
-    .ingredient-item:last-child{border-bottom:none;margin-bottom:0;padding-bottom:0}
-    .ingredient-num{background:var(--cta);color:#fff;border-radius:50%;width:30px;height:30px;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:.875rem;flex-shrink:0;margin-top:3px}
-    .ingredient-item p{color:var(--text-body);line-height:1.65;font-size:.9375rem}
-    .ingredient-item strong{color:var(--text-dark);font-weight:700}
-
-    .guarantee-wrap{display:flex;flex-direction:column;align-items:center;gap:28px;text-align:center;background:linear-gradient(to right,#f0f9f4,#e8f5e9);padding:48px 20px;border-radius:20px}
-    .guarantee-badge-img{width:160px;filter:drop-shadow(0 4px 12px rgba(0,0,0,.15))}
-    .guarantee-text{flex:1}
-    .guarantee-title{font-family:'Merriweather',serif;font-size:1.375rem;font-weight:800;color:#15803d;margin-bottom:14px;line-height:1.3}
-
-    .benefits-list{margin-top:24px}
-    .benefit-item{display:flex;align-items:flex-start;gap:12px;margin-bottom:14px}
-    .benefit-check{width:22px;height:22px;color:var(--cta);flex-shrink:0;margin-top:3px}
-    .benefit-item span{color:var(--text-body);line-height:1.65;font-size:.9375rem}
-
-    .faq-list{margin-top:24px}
-    .faq-item{border-bottom:1px solid #e5e7eb}
-    .faq-question{width:100%;display:flex;justify-content:space-between;align-items:center;font-size:.9375rem;font-weight:700;color:var(--text-dark);text-align:left;padding:18px 0;line-height:1.4;gap:16px}
-    .faq-icon{color:var(--brand);font-size:1.375rem;transition:transform .3s;flex-shrink:0;font-weight:400;line-height:1}
-    .faq-answer{display:none;padding-bottom:18px;color:#4b5563;line-height:1.7;font-size:.9375rem}
-    .faq-item.active .faq-answer{display:block}
-    .faq-item.active .faq-icon{transform:rotate(45deg)}
-
-    .final-cta-box{background:var(--bg-dark);border-radius:20px;padding:36px 24px;text-align:center;color:#fff}
-    .final-cta-title{font-family:'Merriweather',serif;font-size:1.5rem;font-weight:900;color:#fff;margin-bottom:8px;line-height:1.3}
-    .final-cta-sub{color:#94a3b8;font-size:.9375rem;margin-bottom:28px;line-height:1.6}
-    .final-price-row{display:flex;align-items:baseline;justify-content:center;gap:14px;margin-bottom:20px;flex-wrap:wrap}
-    .final-price-orig{font-size:1.25rem;color:#64748b;text-decoration:line-through}
-    .final-price-curr{font-size:3rem;font-weight:900;color:#fff;font-family:'Merriweather',serif;line-height:1}
-    .final-price-badge{background:#dc2626;color:#fff;font-size:.75rem;font-weight:700;padding:5px 12px;border-radius:99px}
-    .final-cta-img{max-width:260px;margin:0 auto 24px;border-radius:12px}
-    .final-guarantee-note{font-size:.8125rem;color:#475569;margin-top:14px;display:flex;align-items:center;justify-content:center;gap:6px}
-    .final-guarantee-note svg{width:14px;height:14px;color:var(--cta)}
-
-    .footer{background:#0f172a;color:#6b7280;padding:36px 16px;font-size:.75rem;line-height:1.75;text-align:center}
-    .footer strong{color:#94a3b8}
-    .footer a{color:#60a5fa;text-decoration:underline}
-    .footer hr{border:none;border-top:1px solid #1e293b;margin:20px 0}
-    .footer-links{display:flex;flex-wrap:wrap;justify-content:center;gap:4px 16px;margin-top:16px}
-
-    .floating-cta{position:fixed;bottom:20px;right:16px;background:linear-gradient(135deg,var(--cta-dark),var(--cta));color:#fff;font-weight:700;font-size:.875rem;padding:13px 20px;border-radius:10px;box-shadow:0 6px 20px rgba(0,0,0,.25);z-index:100;display:flex;align-items:center;gap:8px;animation:glow-float 2.5s infinite;transition:transform .15s}
-    .floating-cta:hover{transform:translateY(-3px)}
-    .floating-cta svg{width:17px;height:17px}
-    @keyframes glow-float{0%,100%{box-shadow:0 6px 20px rgba(22,163,74,.3)}50%{box-shadow:0 6px 32px rgba(22,163,74,.65)}}
-
-    .mt-8{margin-top:8px}.mt-12{margin-top:12px}.mt-16{margin-top:16px}.mt-20{margin-top:20px}.mt-24{margin-top:24px}.mt-28{margin-top:28px}.mt-32{margin-top:32px}.mb-0{margin-bottom:0!important}
-
-    .modal{display:none;position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,.7);z-index:1000;align-items:center;justify-content:center;padding:20px}
-    .modal.open{display:flex}
-    .modal-content{background:#fff;border-radius:16px;max-width:420px;width:100%;max-height:90vh;overflow-y:auto;position:relative}
-    .modal-close{position:absolute;top:16px;right:16px;width:36px;height:36px;background:#f1f5f9;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:1.25rem;color:#64748b;border:none;cursor:pointer}
-    .modal-close:hover{background:#e2e8f0;color:#0f172a}
-    .modal-body{padding:24px}
-
-    @media(min-width:768px){
-        .section{padding:72px 0}
-        .container,.container-wide{padding:0 24px}
-        .h1{font-size:2.5rem}
-        .section-badge,.section-badge-full{font-size:1.375rem}
-        .body-text{font-size:1.0625rem}
-        .hero{padding:64px 24px}
-        .hero-inner{flex-direction:row;align-items:flex-start;gap:52px}
-        .hero-img{max-width:380px}
-        .hero-text .text-center{text-align:left}
-        .price-card{text-align:left}
-        .price-row{justify-content:flex-start}
-        .trust-grid{grid-template-columns:repeat(4,1fr)}
-        .reviews-grid{grid-template-columns:repeat(3,1fr)}
-        .works-wrap{flex-direction:row;align-items:flex-start}
-        .works-img{width:44%;flex-shrink:0}
-        .steps{width:56%}
-        .guarantee-wrap{flex-direction:row;text-align:left;padding:52px 40px}
-        .guarantee-badge-img{flex-shrink:0}
-        .final-cta-box{padding:52px 48px}
-        .cta-primary{width:auto}
-    }
+        .fade-in {
+            animation: fadeIn 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
     </style>
 </head>
-<body>
+<body class="bg-[#0A0A0B] text-gray-200">
 
-<div class="offer-bar">
-    <div class="offer-bar-inner">
-        <div class="offer-bar-item">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
-            </svg>
-            60-DAY MONEY-BACK GUARANTEE — ZERO RISK
-        </div>
-        <div class="offer-bar-item">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
-                <path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
-            </svg>
-            Ships From The USA
-        </div>
-    </div>
-</div>
-
-<section class="hero bg-white">
-    <div class="hero-inner">
-        <div class="hero-img-wrap">
-            <a href="https://1c069ikahpimet9lje36wb0r7d.hop.clickbank.net">
-                <img src="images/hero-product.webp"
-                     alt="VapoFil Natural Male Health Supplement"
-                     class="hero-img">
-            </a>
-        </div>
-
-        <div class="hero-text">
-            <p class="eyebrow">VapoFil</p>
-            <h1 class="h1">It's Not Age. It's Your Body Asking for What It's Missing.</h1>
-
-            <div class="body-text mt-24">
-                <p>You haven't changed. But something has. The drive that used to wake you up before the alarm. The focus that made you dangerous in a boardroom. The presence your partner noticed the moment you walked in the room. It's still in you — it just needs the right support to come back.</p>
-                <p><strong>VapoFil is a natural daily formula built specifically for men over 35</strong> whose bodies are producing less of what they need most. Not a drug. Not a shortcut. A clinically-informed blend of time-tested ingredients that work <em>with</em> your biology — quietly, consistently, without anyone needing to know.</p>
-                <p>Less than the cost of a coffee a day. No subscription. No commitment beyond 60 days — or your money back, no questions asked.</p>
-            </div>
-
-            <div class="price-card mt-28">
-                <p class="price-label">Limited Offer — Save $780 Today</p>
-                <div class="price-row">
-                    <span class="price-original">$1,074</span>
-                    <span class="price-current">$294</span>
-                    <span class="price-badge">BEST VALUE</span>
-                </div>
-                <a href="https://1c069ikahpimet9lje36wb0r7d.hop.clickbank.net" class="cta-primary">
-                    YES — I WANT TO FEEL LIKE MYSELF AGAIN
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6"/>
-                    </svg>
-                </a>
-                <p class="price-note mt-12">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
-                    </svg>
-                    60-day money-back guarantee &nbsp;·&nbsp; Ships from the USA &nbsp;·&nbsp; One-time purchase — no subscriptions
-                </p>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="sci-bar">
-    <div class="container text-center">
-        <p class="sci-bar-label">Premium Ingredients Backed by Research</p>
-        <img src="images/scientific-refs.webp"
-             alt="Scientific research"
-             style="max-width:580px;width:100%;margin:0 auto;opacity:.82"
-             loading="lazy">
-    </div>
-</section>
-
-<section class="section bg-gray">
-    <div class="container-wide text-center">
-        <h2 class="section-badge">What Men Like You Are Saying</h2>
-
-        <div class="rating-wrap">
-            <div>
-                <span class="rating-score">4.98</span>
-                <div class="rating-stars" style="margin-top:4px">
-                    <svg viewBox="0 0 20 20"><path d="M10 15l-5.878 3.09L5.845 12 1 7.91l6.061-.909L10 2l2.939 5.001L19 7.91 14.155 12l1.723 6.09z"/></svg>
-                    <svg viewBox="0 0 20 20"><path d="M10 15l-5.878 3.09L5.845 12 1 7.91l6.061-.909L10 2l2.939 5.001L19 7.91 14.155 12l1.723 6.09z"/></svg>
-                    <svg viewBox="0 0 20 20"><path d="M10 15l-5.878 3.09L5.845 12 1 7.91l6.061-.909L10 2l2.939 5.001L19 7.91 14.155 12l1.723 6.09z"/></svg>
-                    <svg viewBox="0 0 20 20"><path d="M10 15l-5.878 3.09L5.845 12 1 7.91l6.061-.909L10 2l2.939 5.001L19 7.91 14.155 12l1.723 6.09z"/></svg>
-                    <svg viewBox="0 0 20 20"><path d="M10 15l-5.878 3.09L5.845 12 1 7.91l6.061-.909L10 2l2.939 5.001L19 7.91 14.155 12l1.723 6.09z"/></svg>
-                </div>
-            </div>
-            <p class="rating-count">Based on <strong>1,300+ verified purchases</strong></p>
-        </div>
-
-        <div class="reviews-grid">
-            <div class="review-card">
-                <img src="images/review-1.webp" alt="Michael R." class="review-photo" loading="lazy">
-                <div class="review-rating-row">
-                    <span class="review-badge">5.0</span>
-                    <span class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
-                </div>
-                <p class="review-verified">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
-                    </svg>
-                    Verified Purchase
-                </p>
-                <p class="review-text">"I didn't want to admit something was off — but it was. Less energy, less edge, less of everything. A buddy mentioned this and I tried it quietly. Six weeks in, I'm back in the gym hard, sharper at work, and my wife is definitely paying more attention. I didn't expect it to matter this much."</p>
-                <p class="review-author">Michael R.</p>
-                <p class="review-loc">— Houston, TX</p>
-            </div>
-
-            <div class="review-card">
-                <img src="images/review-2.webp" alt="James T." class="review-photo" loading="lazy">
-                <div class="review-rating-row">
-                    <span class="review-badge">5.0</span>
-                    <span class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733</span>
-                </div>
-                <p class="review-verified">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
-                    </svg>
-                    Verified Purchase
-                </p>
-                <p class="review-text">"Skeptical doesn't even begin to cover it. I've wasted money on this kind of stuff before. But the 60-day guarantee gave me nothing to lose. By week three, I noticed the difference. More drive, better focus, more of that quiet confidence that had gone quiet. Give it an honest shot."</p>
-                <p class="review-author">James T.</p>
-                <p class="review-loc">— Denver, CO</p>
-            </div>
-
-            <div class="review-card">
-                <img src="images/review-3.webp" alt="Robert K." class="review-photo" loading="lazy">
-                <div class="review-rating-row">
-                    <span class="review-badge">5.0</span>
-                    <span class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733</span>
-                </div>
-                <p class="review-verified">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
-                    </svg>
-                    Verified Purchase
-                </p>
-                <p class="review-text">"No hype — just results. This isn't a miracle pill and it doesn't pretend to be. What it is, is consistent support that quietly adds up. I started feeling more like myself again around week four. That's exactly what I needed and honestly more than I expected."</p>
-                <p class="review-author">Robert K.</p>
-                <p class="review-loc">— San Diego, CA</p>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="section bg-white">
-    <div class="container-wide text-center">
-        <h2 class="section-badge">Why Men Choose VapoFil</h2>
-        <div class="trust-grid">
-            <div class="trust-card">
-                <img src="images/badge-usa.webp" alt="Made in USA" loading="lazy">
-                <div class="trust-card-title">Made in the USA</div>
-                <p class="trust-card-desc">Formulated and manufactured in the United States under strict quality standards.</p>
-            </div>
-            <div class="trust-card">
-                <img src="images/badge-fda.webp" alt="FDA-Registered" loading="lazy">
-                <div class="trust-card-title">FDA-Registered Facility</div>
-                <p class="trust-card-desc">Produced in an FDA-registered facility complying with federal safety requirements.</p>
-            </div>
-            <div class="trust-card">
-                <img src="images/badge-gmp.webp" alt="GMP Certified" loading="lazy">
-                <div class="trust-card-title">GMP-Certified</div>
-                <p class="trust-card-desc">Good Manufacturing Practice certified for consistent quality and purity.</p>
-            </div>
-            <div class="trust-card">
-                <img src="images/badge-natural.webp" alt="Natural Formula" loading="lazy">
-                <div class="trust-card-title">Natural Ingredients</div>
-                <p class="trust-card-desc">Plant-based formula. Non-GMO, gluten-free, no artificial stimulants — nothing your body doesn't recognize.</p>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="section bg-gray">
-    <div class="container text-center">
-        <h2 class="section-badge-full">What Is VapoFil?</h2>
-        <img src="images/what-is-it.webp"
-             alt="VapoFil Natural Formula"
-             class="what-img" loading="lazy">
-        <div class="body-text text-justify">
-            <p><strong>VapoFil is not a magic fix. It's a daily support system</strong> for men whose bodies are quietly producing less of the hormones, circulation support, and cellular energy they once had in abundance — and who want to do something about it, privately, without drama.</p>
-            <p style="margin-top:20px">After 35, testosterone levels drop an average of 1–2% per year. Nitric oxide production — the compound responsible for blood flow and physical response — declines too. Energy metabolism slows. These aren't character flaws. They're biology. And biology responds to the right inputs.</p>
-            <p style="margin-top:20px">VapoFil delivers a precise combination of ingredients — each one well-documented and widely studied — that support your body's natural ability to maintain hormone balance, circulation, and sustained energy. Manufactured in FDA-registered, GMP-certified facilities in the USA. Natural, non-GMO, no artificial stimulants.</p>
-            <p style="margin-top:20px">Whether you're 38, 48 or 58, the principle is the same: <strong>give your body what it's missing, and it tends to respond.</strong></p>
-        </div>
-    </div>
-</section>
-
-<section class="section bg-white">
-    <div class="container">
-        <h2 class="section-badge-full text-center">How VapoFil Works</h2>
-        <p class="body-text text-center">
-            Three targeted support pathways. One daily formula. No guesswork.
-        </p>
-        <div class="works-wrap">
-            <img src="images/how-it-works.webp"
-                 alt="How VapoFil supports male health"
-                 class="works-img" loading="lazy">
-            <div class="steps">
-                <div class="step">
-                    <div class="step-num">1</div>
-                    <div>
-                        <div class="step-title">Supports Healthy Testosterone</div>
-                        <p>Tongkat Ali, Saw Palmetto, and Boron work in concert to support your body's own hormone production — not override it. The goal isn't a spike. It's consistent, sustainable balance over time.</p>
+    <!-- Header Navigation -->
+    <nav class="fixed top-0 w-full z-50 bg-[#0A0A0B]/80 backdrop-blur-md border-b border-white-10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                <div class="flex items-center cursor-pointer" onclick="navigateTo('home')">
+                    <div class="flex flex-col">
+                        <span class="text-xl font-extrabold tracking-tighter text-white leading-none">JAPONES <span class="text-brand-blue">ADS</span></span>
+                        <span class="text-[10px] text-gray-500 uppercase tracking-[0.2em] font-semibold">Marketing Digital</span>
                     </div>
                 </div>
-                <div class="step">
-                    <div class="step-num">2</div>
-                    <div>
-                        <div class="step-title">Promotes Healthy Circulation</div>
-                        <p>Horny Goat Weed (standardized to icariin) supports nitric oxide pathways and healthy blood flow — the underlying mechanism behind physical responsiveness, stamina, and recovery.</p>
+                
+                <div class="hidden md:flex items-center space-x-10 text-sm font-medium">
+                    <button onclick="navigateTo('home')" class="hover:text-brand-blue transition-colors">Início</button>
+                    <button onclick="scrollToSection('servicos')" class="hover:text-brand-blue transition-colors">Serviços</button>
+                    <button onclick="navigateTo('contato')" class="hover:text-brand-blue transition-colors">Contato</button>
+                    <button onclick="navigateTo('contato')" class="bg-brand-blue hover:bg-blue-600 text-white px-6 py-2.5 rounded-full font-bold transition-all shadow-lg shadow-blue-500/20">
+                        Escalar meu Negócio
+                    </button>
+                </div>
+
+                <div class="md:hidden">
+                    <button id="menu-btn" class="p-2 text-white"><i data-lucide="menu"></i></button>
+                </div>
+            </div>
+        </div>
+        <!-- Mobile Menu Overlay -->
+        <div id="mobile-menu" class="hidden md:hidden bg-dark-surface border-b border-white-10 py-6 px-4 space-y-4">
+            <button onclick="navigateTo('home')" class="block w-full text-left py-2 text-lg">Início</button>
+            <button onclick="navigateTo('contato')" class="block w-full text-left py-2 text-lg">Contato</button>
+            <button onclick="navigateTo('contato')" class="block w-full bg-brand-blue py-4 rounded-xl font-bold text-center">Começar Agora</button>
+        </div>
+    </nav>
+
+    <!-- Main Content Container -->
+    <main class="pt-20">
+
+        <!-- HOME PAGE -->
+        <div id="home" class="page-section active fade-in">
+            <!-- Hero -->
+            <section class="relative hero-gradient pt-24 pb-32">
+                <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
+                    <div class="inline-flex items-center gap-2 bg-blue-500/10 border border-blue-500/20 px-4 py-1.5 rounded-full text-brand-blue text-sm font-bold mb-8">
+                        <span class="relative flex h-2 w-2">
+                          <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-400 opacity-75"></span>
+                          <span class="relative inline-flex rounded-full h-2 w-2 bg-blue-500"></span>
+                        </span>
+                        ESTRATÉGIAS DE ALTO ROI
+                    </div>
+                    <h1 class="text-5xl md:text-7xl font-extrabold text-white mb-8 tracking-tight leading-[1.1]">
+                        Dominamos o Tráfego Pago para <br>
+                        <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-blue-600">Alavancar suas Vendas</span>
+                    </h1>
+                    <p class="text-xl text-gray-400 max-w-2xl mx-auto mb-12 leading-relaxed font-light">
+                        Na <strong>Japones Marketing ADS</strong>, não vendemos apenas cliques, entregamos resultados mensuráveis. Estratégias avançadas para quem busca escala real no digital.
+                    </p>
+                    <div class="flex flex-col sm:flex-row justify-center gap-4">
+                        <button onclick="navigateTo('contato')" class="bg-brand-blue hover:bg-blue-600 text-white px-10 py-5 rounded-full text-lg font-bold transition-all flex items-center justify-center gap-3">
+                            Falar com um especialista <i data-lucide="arrow-right" class="w-5 h-5"></i>
+                        </button>
                     </div>
                 </div>
-                <div class="step">
-                    <div class="step-num">3</div>
+            </section>
+
+            <!-- Partners/Platforms -->
+            <section class="py-12 border-y border-white-10">
+                <div class="max-w-7xl mx-auto px-4 flex flex-wrap justify-center items-center gap-8 md:gap-20 opacity-40">
+                    <div class="flex items-center gap-2 font-bold text-lg"><i data-lucide="search" class="w-6 h-6"></i> Google Ads</div>
+                    <div class="flex items-center gap-2 font-bold text-lg"><i data-lucide="facebook" class="w-6 h-6"></i> Meta Ads</div>
+                    <div class="flex items-center gap-2 font-bold text-lg"><i data-lucide="instagram" class="w-6 h-6"></i> Instagram Ads</div>
+                    <div class="flex items-center gap-2 font-bold text-lg"><i data-lucide="bar-chart" class="w-6 h-6"></i> Analytics IQ</div>
+                </div>
+            </section>
+
+            <!-- Services Section -->
+            <section id="servicos" class="py-32 bg-[#0C0C0D]">
+                <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                    <div class="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">
+                        <div class="max-w-xl">
+                            <h2 class="text-3xl md:text-5xl font-extrabold text-white mb-4 italic uppercase">Nossa Metodologia</h2>
+                            <p class="text-gray-400">Transformamos investimento em faturamento através de dados.</p>
+                        </div>
+                        <div class="h-[2px] bg-brand-blue w-24 hidden md:block mb-4"></div>
+                    </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                        <div class="glass-card p-10 rounded-3xl hover:border-blue-500/50 transition-all group">
+                            <div class="w-16 h-16 bg-blue-500/10 text-brand-blue rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 transition-transform">
+                                <i data-lucide="target" class="w-8 h-8"></i>
+                            </div>
+                            <h3 class="text-2xl font-bold text-white mb-4">Escala de Ads</h3>
+                            <p class="text-gray-400 leading-relaxed">Gerenciamos orçamentos focados no público certo, eliminando desperdícios e maximizando seu lucro líquido.</p>
+                        </div>
+
+                        <div class="glass-card p-10 rounded-3xl hover:border-blue-500/50 transition-all group">
+                            <div class="w-16 h-16 bg-blue-500/10 text-brand-blue rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 transition-transform">
+                                <i data-lucide="zap" class="w-8 h-8"></i>
+                            </div>
+                            <h3 class="text-2xl font-bold text-white mb-4">Performance Direta</h3>
+                            <p class="text-gray-400 leading-relaxed">Estratégias agressivas de funil de conversão e remarketing para transformar visitantes em clientes fiéis.</p>
+                        </div>
+
+                        <div class="glass-card p-10 rounded-3xl hover:border-blue-500/50 transition-all group">
+                            <div class="w-16 h-16 bg-blue-500/10 text-brand-blue rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 transition-transform">
+                                <i data-lucide="pie-chart" class="w-8 h-8"></i>
+                            </div>
+                            <h3 class="text-2xl font-bold text-white mb-4">Análise em Tempo Real</h3>
+                            <p class="text-gray-400 leading-relaxed">Monitoramento contínuo de métricas vitais para garantir que cada centavo investido esteja gerando retorno.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- CONTACT PAGE -->
+        <div id="contato" class="page-section fade-in py-24">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-20">
                     <div>
-                        <div class="step-title">Sustains All-Day Energy &amp; Focus</div>
-                        <p>Sarsaparilla Root and Nettle Leaf Extract have been used for centuries as male tonics. Together, they support sustained energy output, mental sharpness, and reduced fatigue — the kind of endurance that carries you through a full day without crashing.</p>
+                        <h2 class="text-4xl md:text-6xl font-extrabold text-white mb-8 tracking-tighter uppercase italic">
+                            Potencialize sua <br>Marca com <span class="text-brand-blue">Especialistas.</span>
+                        </h2>
+                        <p class="text-xl text-gray-400 mb-12">Solicite uma auditoria gratuita e descubra o potencial de crescimento do seu negócio através da <strong>Japones Marketing ADS</strong>.</p>
+                        
+                        <div class="space-y-8">
+                            <div class="flex items-center gap-6">
+                                <div class="w-14 h-14 glass-card rounded-2xl flex items-center justify-center text-brand-blue">
+                                    <i data-lucide="mail"></i>
+                                </div>
+                                <div>
+                                    <p class="text-sm text-gray-500 uppercase tracking-widest">E-mail Corporativo</p>
+                                    <p class="text-lg font-bold text-white">contato@adsmarketingpro.com.br</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center gap-6">
+                                <div class="w-14 h-14 glass-card rounded-2xl flex items-center justify-center text-brand-blue">
+                                    <i data-lucide="clock"></i>
+                                </div>
+                                <div>
+                                    <p class="text-sm text-gray-500 uppercase tracking-widest">Horário de Atendimento</p>
+                                    <p class="text-lg font-bold text-white">Segunda a Sexta, 08h às 18h</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-white/5 p-8 md:p-12 rounded-[40px] border border-white-10">
+                        <form onsubmit="event.preventDefault(); showToast('Recebemos sua solicitação! Nossa equipe entrará em contato em breve.');" class="space-y-6">
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                                <div>
+                                    <label class="block text-xs font-bold uppercase text-gray-500 mb-2">Nome Completo</label>
+                                    <input type="text" placeholder="Seu nome" class="w-full bg-white/5 border border-white-10 p-4 rounded-2xl focus:outline-none focus:border-brand-blue transition-all" required>
+                                </div>
+                                <div>
+                                    <label class="block text-xs font-bold uppercase text-gray-500 mb-2">E-mail Comercial</label>
+                                    <input type="email" placeholder="seu@email.com" class="w-full bg-white/5 border border-white-10 p-4 rounded-2xl focus:outline-none focus:border-brand-blue transition-all" required>
+                                </div>
+                            </div>
+                            <div>
+                                <label class="block text-xs font-bold uppercase text-gray-500 mb-2">Qual seu investimento mensal atual em anúncios?</label>
+                                <select class="w-full bg-white/5 border border-white-10 p-4 rounded-2xl focus:outline-none focus:border-brand-blue transition-all appearance-none">
+                                    <option class="bg-dark-surface">Ainda não invisto</option>
+                                    <option class="bg-dark-surface">Até R$ 2.000 / mês</option>
+                                    <option class="bg-dark-surface">R$ 2.000 a R$ 10.000 / mês</option>
+                                    <option class="bg-dark-surface">Mais de R$ 10.000 / mês</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label class="block text-xs font-bold uppercase text-gray-500 mb-2">Como podemos ajudar seu negócio?</label>
+                                <textarea rows="4" placeholder="Conte-nos brevemente seus objetivos..." class="w-full bg-white/5 border border-white-10 p-4 rounded-2xl focus:outline-none focus:border-brand-blue transition-all"></textarea>
+                            </div>
+                            <button class="w-full bg-brand-blue hover:bg-blue-600 text-white py-5 rounded-2xl font-black text-lg uppercase tracking-widest transition-all">
+                                Solicitar Análise Gratuita
+                            </button>
+                        </form>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
 
-<section class="section bg-gray">
-    <div class="container">
-        <h2 class="section-badge-full text-center">What's Inside Each Capsule</h2>
-        <p class="body-text text-center">
-            No proprietary blends. No mystery fillers. Just <strong>six well-documented ingredients</strong> at meaningful dosages — each one chosen for a specific physiological purpose.
-        </p>
-        <img src="images/ingredients.webp"
-             alt="VapoFil premium ingredients"
-             class="ingredients-img" loading="lazy">
-        <div class="ingredient-list">
-            <div class="ingredient-item">
-                <span class="ingredient-num">1</span>
-                <p><strong>Tongkat Ali</strong> — One of the most studied botanicals for male hormone support. Associated with improvements in testosterone, physical performance, and stress response. Used in traditional medicine for centuries; now backed by modern clinical research.</p>
-            </div>
-            <div class="ingredient-item">
-                <span class="ingredient-num">2</span>
-                <p><strong>Horny Goat Weed (Icariin)</strong> — Contains icariin, which supports nitric oxide activity and healthy circulation. The mechanism behind physical responsiveness and blood flow in men is well studied and documented.</p>
-            </div>
-            <div class="ingredient-item">
-                <span class="ingredient-num">3</span>
-                <p><strong>Saw Palmetto</strong> — Widely used for prostate health and hormone balance. Helps support healthy DHT levels and may reduce the hormonal noise that comes with aging — allowing testosterone to function more effectively.</p>
-            </div>
-            <div class="ingredient-item">
-                <span class="ingredient-num">4</span>
-                <p><strong>Sarsaparilla Root</strong> — A traditional male tonic with a long history of use for energy, endurance, and vitality. Supports physical output without the crash of stimulants.</p>
-            </div>
-            <div class="ingredient-item">
-                <span class="ingredient-num">5</span>
-                <p><strong>Nettle Leaf Extract</strong> — Binds to SHBG (sex hormone-binding globulin), which can trap testosterone and make it unavailable. Nettle leaf helps free up more of your body's existing testosterone for actual use.</p>
-            </div>
-            <div class="ingredient-item">
-                <span class="ingredient-num">6</span>
-                <p><strong>Boron</strong> — A trace mineral with a significant role in testosterone metabolism. Studies show boron supplementation can meaningfully increase free testosterone levels within weeks of consistent use.</p>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="section bg-white">
-    <div class="container-wide">
-        <div class="guarantee-wrap">
-            <img src="images/guarantee-badge.webp"
-                 alt="60-Day Satisfaction Guarantee"
-                 class="guarantee-badge-img" loading="lazy">
-            <div class="guarantee-text">
-                <div class="guarantee-title">60-Day Money-Back Guarantee — Zero Risk</div>
-                <p class="body-text">Here's the truth: we know these things work differently for every man. So instead of asking you to trust us, we're asking you to just try it. Give it at least 30 days. If you don't feel a meaningful difference in your energy, drive, or clarity — contact us and you'll get every dollar back. No forms. No hoops. No awkward conversations.</p>
-                <p class="body-text mt-16">One-time purchase. No hidden subscriptions. You decide if it's worth continuing — based entirely on how you feel.</p>
-                <div class="mt-24">
-                    <a href="https://1c069ikahpimet9lje36wb0r7d.hop.clickbank.net" class="cta-secondary">
-                        Try It Risk-Free for 60 Days →
-                    </a>
+        <!-- LEGAL PAGES -->
+        <div id="politica" class="page-section fade-in py-24">
+            <div class="max-w-3xl mx-auto px-4">
+                <h1 class="text-3xl font-bold mb-10 text-white">Política de Privacidade</h1>
+                <div class="space-y-6 text-gray-400">
+                    <p>A <strong>Japones Marketing ADS</strong> (Nome Empresarial: 45.532.614 RODOLFO HENRIQUE GONCALVES COLPANI) está comprometida em proteger sua privacidade.</p>
+                    <p>Ao preencher nossos formulários, você autoriza o uso das suas informações exclusivamente para fins de prospecção comercial e agendamento de reuniões de diagnóstico. Garantimos a segurança dos dados em conformidade com a LGPD.</p>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </main>
 
-<section class="section bg-gray">
-    <div class="container">
-        <h2 class="section-badge-full text-center">What Men Report After Consistent Use</h2>
-        <p class="body-text text-center">
-            These aren't overnight results. They're the compound effect of giving your body the right support, consistently, over weeks:
+    <!-- Footer -->
+    <footer class="bg-black border-t border-white-10 pt-20 pb-10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-20">
+                <div class="col-span-1 md:col-span-2">
+                    <div class="mb-8">
+                        <span class="text-2xl font-black tracking-tighter text-white">JAPONES <span class="text-brand-blue">ADS</span></span>
+                    </div>
+                    <div class="space-y-4 text-gray-500 text-sm max-w-sm leading-relaxed">
+                        <p class="font-bold text-gray-400 tracking-widest uppercase text-[10px]">Informações Legais:</p>
+                        <p>
+                            Razão Social: 45.532.614 RODOLFO HENRIQUE GONCALVES COLPANI<br>
+                            CNPJ: 45.532.614/0001-52
+                        </p>
+                        <p>
+                            Localização: Rua Paschoal Bailon Monteiro, 130 D<br>
+                            Setor WM Segurança do Trabalho - Novo Belvedere<br>
+                            Congonhas - MG | CEP: 36.412-080
+                        </p>
+                    </div>
+                </div>
+
+                <div>
+                    <h4 class="text-white font-bold mb-6 uppercase tracking-widest text-xs">Acesso Rápido</h4>
+                    <ul class="space-y-4 text-sm text-gray-500">
+                        <li><button onclick="navigateTo('home')" class="hover:text-brand-blue">Página Inicial</button></li>
+                        <li><button onclick="scrollToSection('servicos')" class="hover:text-brand-blue">Nossos Serviços</button></li>
+                        <li><button onclick="navigateTo('contato')" class="hover:text-brand-blue">Contato Direto</button></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="text-white font-bold mb-6 uppercase tracking-widest text-xs">Atendimento</h4>
+                    <ul class="space-y-4 text-sm text-gray-500">
+                        <li class="flex items-center gap-2"><i data-lucide="mail" class="w-4 h-4"></i> contato@adsmarketingpro.com.br</li>
+                        <li><button onclick="navigateTo('politica')" class="hover:text-brand-blue">Privacidade e Dados</button></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="border-t border-white-10 pt-10 text-center">
+                <p class="text-xs text-gray-600 font-medium">© <span id="year"></span> Japones Marketing ADS. Estratégias de Tráfego Pago que Escalam.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Toast Notification -->
+    <div id="toast" class="fixed bottom-10 right-10 bg-brand-blue text-white px-6 py-4 rounded-2xl shadow-2xl transform translate-y-32 transition-transform duration-300 z-[100] hidden">
+        <p id="toast-text" class="font-bold flex items-center gap-2">
+            <i data-lucide="check-circle"></i> <span></span>
         </p>
-        <div class="benefits-list mt-24">
-            <div class="benefit-item">
-                <svg class="benefit-check" viewBox="0 0 24 24" fill="currentColor">
-                    <path fill-rule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm13.36-1.814a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z" clip-rule="evenodd"/>
-                </svg>
-                <span>Sustained energy that holds through the whole day — not just mornings</span>
-            </div>
-            <div class="benefit-item">
-                <svg class="benefit-check" viewBox="0 0 24 24" fill="currentColor">
-                    <path fill-rule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm13.36-1.814a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z" clip-rule="evenodd"/>
-                </svg>
-                <span>Healthier testosterone levels and the drive that comes with it</span>
-            </div>
-            <div class="benefit-item">
-                <svg class="benefit-check" viewBox="0 0 24 24" fill="currentColor">
-                    <path fill-rule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm13.36-1.814a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z" clip-rule="evenodd"/>
-                </svg>
-                <span>Better physical stamina and faster recovery between sessions</span>
-            </div>
-            <div class="benefit-item">
-                <svg class="benefit-check" viewBox="0 0 24 24" fill="currentColor">
-                    <path fill-rule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm13.36-1.814a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z" clip-rule="evenodd"/>
-                </svg>
-                <span>Sharper mental focus and less of that mid-day mental fog</span>
-            </div>
-            <div class="benefit-item">
-                <svg class="benefit-check" viewBox="0 0 24 24" fill="currentColor">
-                    <path fill-rule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm13.36-1.814a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z" clip-rule="evenodd"/>
-                </svg>
-                <span>Improved circulation that supports physical performance where it matters</span>
-            </div>
-            <div class="benefit-item">
-                <svg class="benefit-check" viewBox="0 0 24 24" fill="currentColor">
-                    <path fill-rule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm13.36-1.814a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z" clip-rule="evenodd"/>
-                </svg>
-                <span>Prostate health support as part of long-term male wellness</span>
-            </div>
-            <div class="benefit-item">
-                <svg class="benefit-check" viewBox="0 0 24 24" fill="currentColor">
-                    <path fill-rule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm13.36-1.814a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z" clip-rule="evenodd"/>
-                </svg>
-                <span>That quiet confidence you used to take for granted</span>
-            </div>
-            <div class="benefit-item">
-                <svg class="benefit-check" viewBox="0 0 24 24" fill="currentColor">
-                    <path fill-rule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm13.36-1.814a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z" clip-rule="evenodd"/>
-                </svg>
-                <span>An overall feeling of being back in control of your body</span>
-            </div>
-        </div>
     </div>
-</section>
 
-<section class="section bg-white">
-    <div class="container">
-        <h2 class="section-badge-full text-center">Common Questions</h2>
-        <div class="faq-list">
-            <div class="faq-item">
-                <button class="faq-question">
-                    <span>How does VapoFil actually work?</span>
-                    <span class="faq-icon">+</span>
-                </button>
-                <div class="faq-answer">VapoFil addresses male decline on three levels: hormone support (Tongkat Ali, Saw Palmetto, Boron), circulation (Horny Goat Weed / icariin), and sustained energy (Sarsaparilla, Nettle Leaf). None of these override your system — they work <em>with</em> your body's existing biology to restore functions that naturally decline with age. The result is progressive, not dramatic. That's by design.</div>
-            </div>
-            <div class="faq-item">
-                <button class="faq-question">
-                    <span>Is VapoFil safe to take?</span>
-                    <span class="faq-icon">+</span>
-                </button>
-                <div class="faq-answer">Yes. VapoFil uses widely recognized botanicals and minerals — not synthetic compounds or pharmaceutical-grade stimulants. It's manufactured in an FDA-registered, GMP-certified facility in the USA. Non-GMO, gluten-free, no artificial stimulants. As with any supplement, if you're on medication or have a pre-existing condition, check with your doctor before use.</div>
-            </div>
-            <div class="faq-item">
-                <button class="faq-question">
-                    <span>How do I take it?</span>
-                    <span class="faq-icon">+</span>
-                </button>
-                <div class="faq-answer">Two capsules daily, with water, preferably in the morning with food. Consistency matters more than timing. Most men see the most meaningful results after 60–90 days of daily use — so commit to the process and give your biology time to respond.</div>
-            </div>
-            <div class="faq-item">
-                <button class="faq-question">
-                    <span>How long before I notice anything?</span>
-                    <span class="faq-icon">+</span>
-                </button>
-                <div class="faq-answer">Results vary by individual — that's biology, not a cop-out. Some men notice small shifts in energy and focus within 2–4 weeks. The fuller picture — more consistent drive, better physical response, stronger sense of clarity — tends to emerge closer to 60–90 days. That's exactly why we offer a 60-day guarantee: so you have time to actually evaluate it.</div>
-            </div>
-            <div class="faq-item">
-                <button class="faq-question">
-                    <span>What's your return policy?</span>
-                    <span class="faq-icon">+</span>
-                </button>
-                <div class="faq-answer">Simple. Try VapoFil for at least 30 days. If you don't feel meaningfully different by day 60, contact our support team and you'll get a full refund — no questions, no conditions, no hassle. This is a real guarantee, not fine print.</div>
-            </div>
-            <div class="faq-item">
-                <button class="faq-question">
-                    <span>Is this a subscription?</span>
-                    <span class="faq-icon">+</span>
-                </button>
-                <div class="faq-answer">No. This is a one-time purchase. No recurring charges, no automatic renewals, no subscriptions buried in the checkout. You pay once, you receive your order, and you decide whether to reorder based on your results. That's it.</div>
-            </div>
-        </div>
-    </div>
-</section>
+    <script>
+        // Init icons
+        lucide.createIcons();
+        document.getElementById('year').textContent = new Date().getFullYear();
 
-<section class="section bg-white">
-    <div class="container">
-        <div class="final-cta-box">
-            <h2 class="final-cta-title">It's Not About Becoming Someone Else.<br>It's About Feeling Like Yourself Again.</h2>
-            <p class="final-cta-sub">
-                No hype. No dependency. Just consistent daily support for the parts of you that have quietly been declining — and deserve better. One-time purchase. 60-day guarantee. Your move.
-            </p>
+        // Navigation Logic
+        function navigateTo(pageId) {
+            const sections = document.querySelectorAll('.page-section');
+            sections.forEach(s => s.classList.remove('active'));
+            
+            const target = document.getElementById(pageId);
+            if(target) {
+                target.classList.add('active');
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            }
+            document.getElementById('mobile-menu').classList.add('hidden');
+        }
 
-            <img src="images/product-final.webp"
-                 alt="VapoFil Male Health Supplement"
-                 class="final-cta-img" loading="lazy">
+        function scrollToSection(id) {
+            navigateTo('home');
+            setTimeout(() => {
+                const element = document.getElementById(id);
+                if(element) element.scrollIntoView({ behavior: 'smooth' });
+            }, 100);
+        }
 
-            <div class="final-price-row">
-                <span class="final-price-orig">$1,074</span>
-                <span class="final-price-curr">$294</span>
-                <span class="final-price-badge">SAVE $780</span>
-            </div>
-
-            <a href="https://1c069ikahpimet9lje36wb0r7d.hop.clickbank.net" class="cta-primary" style="max-width:460px;margin:0 auto">
-                YES — I WANT TO FEEL LIKE MYSELF AGAIN
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6"/>
-                </svg>
-            </a>
-
-            <p class="final-guarantee-note mt-16">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
-                </svg>
-                60-Day Money-Back Guarantee &nbsp;·&nbsp; Secure Checkout &nbsp;·&nbsp; One-Time Purchase &nbsp;·&nbsp; Ships from the USA
-            </p>
-        </div>
-    </div>
-</section>
-
-<footer class="footer">
-    <div class="container">
-        <p><strong>FDA Disclosure:</strong> These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease. Individual results may vary. Always consult a licensed healthcare professional before starting any supplement regimen.</p>
-        <hr>
-        <p><strong>Marketing Disclosure:</strong> This website operates as a marketplace. The owner may receive compensation for products or services advertised on this site when a qualified lead results in a sale.</p>
-        <hr>
-        <p><strong>Advertising Disclosure:</strong> Third-party trademarks and brand names referenced on this site are for identification purposes only and do not imply any affiliation or endorsement.</p>
-        <div class="footer-links">
-            <a href="#" onclick="document.getElementById('modal-privacy').classList.add('open');return false">Privacy Policy</a>
-            <a href="#" onclick="document.getElementById('modal-terms').classList.add('open');return false">Terms &amp; Conditions</a>
-            <a href="#" onclick="document.getElementById('modal-disclaimer').classList.add('open');return false">Disclaimer</a>
-            <a href="mailto:support@vapofil.com">Contact Us</a>
-        </div>
-        <p style="margin-top:16px">&copy; 2026 VapoFil. All Rights Reserved.</p>
-        <p style="margin-top:8px;font-size:.6875rem;color:#475569">This website is not affiliated with Facebook, Inc. or any of its registered trademarks.</p>
-    </div>
-</footer>
-
-<a href="https://1c069ikahpimet9lje36wb0r7d.hop.clickbank.net" class="floating-cta" id="floatingCta">
-    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-        <path stroke-linecap="round" stroke-linejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6"/>
-    </svg>
-    Feel Like Yourself Again
-</a>
-
-<div id="modal-privacy" class="modal" onclick="if(event.target===this)this.classList.remove('open')">
-    <div class="modal-content">
-        <button class="modal-close" onclick="document.getElementById('modal-privacy').classList.remove('open')">×</button>
-        <div class="modal-body">
-            <h2 style="margin-bottom:20px;font-size:1.25rem">Privacy Policy</h2>
-            <p style="font-size:.875rem;line-height:1.7">We value your privacy and are committed to protecting your personal information. We collect only necessary data to process your order and never share your information with unauthorized parties.</p>
-        </div>
-    </div>
-</div>
-
-<div id="modal-terms" class="modal" onclick="if(event.target===this)this.classList.remove('open')">
-    <div class="modal-content">
-        <button class="modal-close" onclick="document.getElementById('modal-terms').classList.remove('open')">×</button>
-        <div class="modal-body">
-            <h2 style="margin-bottom:20px;font-size:1.25rem">Terms & Conditions</h2>
-            <p style="font-size:.875rem;line-height:1.7">By placing an order, you agree to our terms and conditions. All purchases are subject to our return and refund policy as outlined on this website.</p>
-        </div>
-    </div>
-</div>
-
-<div id="modal-disclaimer" class="modal" onclick="if(event.target===this)this.classList.remove('open')">
-    <div class="modal-content">
-        <button class="modal-close" onclick="document.getElementById('modal-disclaimer').classList.remove('open')">×</button>
-        <div class="modal-body">
-            <h2 style="margin-bottom:20px;font-size:1.25rem">Disclaimer</h2>
-            <p style="font-size:.875rem;line-height:1.7">The statements on this website have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease.</p>
-        </div>
-    </div>
-</div>
-
-<script>
-(function(){
-    document.querySelectorAll('.faq-question').forEach(function(btn){
-        btn.addEventListener('click',function(){
-            var item = this.parentElement;
-            var isActive = item.classList.contains('active');
-            document.querySelectorAll('.faq-item').forEach(function(el){
-                el.classList.remove('active');
-            });
-            if(!isActive) item.classList.add('active');
+        // Mobile Menu Toggler
+        const menuBtn = document.getElementById('menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        menuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
         });
-    });
-})();
 
-(function(){
-    var cta = document.getElementById('floatingCta');
-    window.addEventListener('scroll', function(){
-        cta.style.display = window.scrollY > 400 ? 'flex' : 'none';
-    }, {passive: true});
-    cta.style.display = 'none';
-})();
-</script>
-
+        // Toast Handler
+        function showToast(text) {
+            const toast = document.getElementById('toast');
+            const toastText = document.querySelector('#toast-text span');
+            toastText.textContent = text;
+            toast.classList.remove('hidden');
+            setTimeout(() => toast.classList.remove('translate-y-32'), 10);
+            
+            setTimeout(() => {
+                toast.classList.add('translate-y-32');
+                setTimeout(() => toast.classList.add('hidden'), 300);
+            }, 4000);
+        }
+    </script>
 </body>
 </html>
